@@ -1,14 +1,14 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: MMM-CalendarWeek
+ * Module: MMM-CalendarWeek2
  * Inspired by module: calendar by Michael Teenuw
  *
  * By Eirik Kvilstad Heskja
  * MIT Licensed.
  */
 
-Module.register("MMM-CalendarWeek", {
+Module.register("MMM-CalendarWeek2", {
 
 	// Define module defaults
 	defaults: {
@@ -55,7 +55,7 @@ Module.register("MMM-CalendarWeek", {
 
 	// Define required scripts.
 	getStyles: function () {
-		return ["MMM-CalendarWeek.css", "font-awesome.css"];
+		return ["MMM-CalendarWeek2.css", "font-awesome.css"];
 	},
 
 	// Define required scripts.
